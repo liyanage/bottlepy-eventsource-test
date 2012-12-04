@@ -11,7 +11,7 @@ fi
 
 echo server type: $server_type
 
-PYTHONPATH=lib/Rocket-1.2.4:lib/waitress-master:lib/CherryPy-3.2.2:lib/Paste-1.7.5.1:lib/bottle-master ./generatortest.py $server_type
+PYTHONPATH=lib/Rocket-src-1.2.4.zip:lib/waitress-master.zip/waitress-master:lib/CherryPy-3.2.2.zip/CherryPy-3.2.2:lib/Paste-1.7.5.1.zip/Paste-1.7.5.1:lib/bottle-master.zip/bottle-master ./generatortest.py $server_type
 
 
 
